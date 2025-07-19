@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <h1 class="flex w-full justify-center font-bold mt-10 text-9x1 text-[40px]">Pomodoro Timer</h1>
+    <div class="container mx-auto  px-4 py-8 flex justify-center text-[50px] font-bold flex-col">
+        <div class="text-[10] w-full flex justify-center" id="timer">
+            <span id="minutes">25</span>:<span id="seconds">00</span>
+        </div>
+        <div class="w-full flex justify-center p-10 font-bold text-[30px]">
+            <button id="startbtn" class="text-white mx-2 p-1 bg-green-400 hover:bg-green-600 rounded-lg">Start</button>
+            <button id="stopbtn" class="text-white mx-2 p-1 bg-red-400 hover:bg-red-600 rounded-lg">Stop</button>
+            <button id="restartbtn" class="text-white p-1 mx-2 bg-gray-400 hover:bg-gray-600 rounded-lg">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
